@@ -28,7 +28,7 @@ if ($pu) {
                 </select>
 
                 <?php
-                if ($state_id && count($lgas->getAll($state_id)) > 0) {
+                if (true) {
                 ?>
                     <br> <label for="">LGA: </label> <select name="lga" id="lga" class="alert alert-primary w-50">
                         <?php
